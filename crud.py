@@ -242,3 +242,7 @@ elif menu == "Deletar":
                             st.success("Consórcio deletado com sucesso!")
                     else:
                         st.info("Nenhum consórcio cadastrado.")
+
+
+                        # Fechar conexão ao final da execução
+                        conn.close()
